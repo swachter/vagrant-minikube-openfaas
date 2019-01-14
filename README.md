@@ -13,7 +13,7 @@ vagrant halt
 vagrant up
 ```
 
-the OpenFaas gateway and queue-worker do sometime not start because of the error:
+the OpenFaas gateway and queue-worker deployments most of the time do not start because of the error:
 
 ```
 Can't connect: nats: no servers available for connection
