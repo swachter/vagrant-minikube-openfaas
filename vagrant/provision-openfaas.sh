@@ -1,7 +1,7 @@
 #!/bin/sh
 
 export OPENFAAS_GW=$(minikube ip):31112
-export OPENFAAS_GW_PW=pw1234
+export OPENFAAS_GW_PW=admin
 export OPENFAAS_REGISTRY=localhost:5000
 
 # install OpenFaas
