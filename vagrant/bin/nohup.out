@@ -1,0 +1,50 @@
+Error: unknown flag: --address
+
+
+Examples:
+  # Listen on ports 5000 and 6000 locally, forwarding data to/from ports 5000 and 6000 in the pod
+  kubectl port-forward pod/mypod 5000 6000
+  
+  # Listen on ports 5000 and 6000 locally, forwarding data to/from ports 5000 and 6000 in a pod selected by the deployment
+  kubectl port-forward deployment/mydeployment 5000 6000
+  
+  # Listen on port 8888 locally, forwarding to 5000 in the pod
+  kubectl port-forward pod/mypod 8888:5000
+  
+  # Listen on a random port locally, forwarding to 5000 in the pod
+  kubectl port-forward pod/mypod :5000
+
+Options:
+      --pod-running-timeout=1m0s: The length of time (like 5s, 2m, or 3h, higher than zero) to wait until at least one pod is running
+
+Usage:
+  kubectl port-forward TYPE/NAME [LOCAL_PORT:]REMOTE_PORT [...[LOCAL_PORT_N:]REMOTE_PORT_N] [options]
+
+Use "kubectl options" for a list of global command-line options (applies to all commands).
+
+unknown flag: --address
+Error: unknown flag: --address
+
+
+Examples:
+  # Listen on ports 5000 and 6000 locally, forwarding data to/from ports 5000 and 6000 in the pod
+  kubectl port-forward pod/mypod 5000 6000
+  
+  # Listen on ports 5000 and 6000 locally, forwarding data to/from ports 5000 and 6000 in a pod selected by the deployment
+  kubectl port-forward deployment/mydeployment 5000 6000
+  
+  # Listen on port 8888 locally, forwarding to 5000 in the pod
+  kubectl port-forward pod/mypod 8888:5000
+  
+  # Listen on a random port locally, forwarding to 5000 in the pod
+  kubectl port-forward pod/mypod :5000
+
+Options:
+      --pod-running-timeout=1m0s: The length of time (like 5s, 2m, or 3h, higher than zero) to wait until at least one pod is running
+
+Usage:
+  kubectl port-forward TYPE/NAME [LOCAL_PORT:]REMOTE_PORT [...[LOCAL_PORT_N:]REMOTE_PORT_N] [options]
+
+Use "kubectl options" for a list of global command-line options (applies to all commands).
+
+unknown flag: --address
