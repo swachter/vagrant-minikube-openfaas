@@ -11,5 +11,5 @@ nohup kubectl port-forward -n kube-system --address 0.0.0.0 svc/kubernetes-dashb
 echo kubernetes dashboard url: http://localhost:5080
 
 echo forward openfaas gateway port...
-nohup kubectl port-forward -n openfaas --address 0.0.0.0 svc/gateway 5180:8080 &
+nohup kubectl port-forward -n openfaas --address 0.0.0.0 svc/gateway 8080:8080 &
 echo openfaas gateway url: http://localhost:5180

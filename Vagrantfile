@@ -25,7 +25,7 @@ Vagrant.configure("2") do |config|
   # kubernetes dashboard
   config.vm.network "forwarded_port", guest: 5080, host: 5080, auto_correct: false
   # openfaas gateway
-  config.vm.network "forwarded_port", guest: 5180, host: 5180, auto_correct: false
+  config.vm.network "forwarded_port", guest: 8080, host: 5180, auto_correct: false
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
