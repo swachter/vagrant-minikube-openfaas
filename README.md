@@ -1,8 +1,6 @@
 Sample setup for Vagrant / VirtualBox / Minikube / Docker / OpenFaaS
 -
 
-The OpenFaaS pods may take a long time (tens of minutes) to reach the "Running" status, in particular after a restart of the box.
-
 The OpenFaas installation was tweaked by setting
 
 ```
