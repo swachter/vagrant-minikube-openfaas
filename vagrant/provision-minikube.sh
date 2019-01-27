@@ -8,7 +8,7 @@ curl -Lso minikube https://storage.googleapis.com/minikube/releases/v0.31.0/mini
 apt-get install socat
 
 echo start minikube...
-minikube start --vm-driver=none
+minikube start --vm-driver=none --extra-config=kubelet.resolv-conf=/run/systemd/resolve/resolv.conf
 echo minikube started
 
 # this for loop waits until kubectl can access the api server that Minikube has created
